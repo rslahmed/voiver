@@ -257,6 +257,10 @@
     .reg-img img {
         max-width: 80px;
     }
+    .register-pupup {
+    padding: 5px 15px;
+    padding-bottom: 25px;
+}
 }
 
 /* Small devices (landscape phones, 576px and up) */
