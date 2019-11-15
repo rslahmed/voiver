@@ -810,3 +810,19 @@ ul.footer-links li ul.dropdown-menu {
 }
 
 /* Footer Bottom End */
+
+.section-title h2 {
+    font-size: 42px;
+    color: #27ae60;
+    font-weight: 300;
+}
+
+.seemore-btn a {
+    font-size: 16px;
+    display: inline-block;
+    background: #27ae60;
+    padding: 8px 25px;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 30px;
+}

@@ -187,7 +187,12 @@
 
     .testomonial-text {
         min-height: 160px;
-        margin-bottom: 30px;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+        color: #27ae60;
+        font-weight: 300;
     }
 }
 
