@@ -184,6 +184,11 @@
         width: 100%;
         margin-bottom: 10px;
     }
+
+    .testomonial-text {
+        min-height: 160px;
+        margin-bottom: 30px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
