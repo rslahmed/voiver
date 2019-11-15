@@ -1,14 +1,10 @@
 /* ***Responsive media query*** */
 
-/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px){
     .single-hire-process {
-        background-color: #fff;
-        padding: 35px 0;
         min-height: 490px;
     }
 }
-
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
@@ -37,6 +33,14 @@
     .testomonial-text {
         min-height: 270px;
     }
+
+    .single-hire-process {
+        background-color: #fff;
+        padding: 35px 0;
+        min-height: 443px;
+    }
+
+    
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -77,6 +81,15 @@
         padding-top: 0;
         padding-bottom: 20px;
     }
+
+    .single-hire-process {
+        padding: 30px 0;
+        min-height: 535px;
+    }
+
+    .content-process {
+        padding: 0 20px;
+    }
 }
 
 /* Extra small devices (portrait phones, less than 768px) */
@@ -84,7 +97,6 @@
 
     /* Process */
     .single-hire-process .icon-hire-process {
-        padding: 0 95px;
         padding-bottom: 30px;
     }
 
