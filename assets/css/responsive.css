@@ -194,6 +194,16 @@
         color: #27ae60;
         font-weight: 300;
     }
+
+    .single-hire-process .icon-hire-process img {
+        max-width: 100px;
+    }
+
+    .ov-img img {
+        max-width: 80px;
+    }
+
+    
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -212,6 +222,13 @@
 
     .header-logo img {
         max-width: 120px;
+    }
+    .single-hire-process .icon-hire-process img {
+        max-width: 80px;
+    }
+
+    .reg-img img {
+        max-width: 80px;
     }
 }
 

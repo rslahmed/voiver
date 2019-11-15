@@ -136,6 +136,7 @@ a {
 	font-size: 12px;
 	text-transform: uppercase;
 	font-family: 'Poppins', sans-serif;
+	margin-right: 6px;
 }
 
 .audio-content {
@@ -432,6 +433,7 @@ section.hero-area:after {
     margin-right: 15px;
     padding: 7px 15px;
     border-radius: 5px;
+    width: 120px;
 }
 
 .hero-search .nice-select {
@@ -818,8 +820,8 @@ ul.footer-links li ul.dropdown-menu {
 }
 
 .footer-bottom .content-text p {
-    line-height: 22px;
-    font-size: 17px;
+    line-height: 18px;
+    font-size: 14px;
     margin-bottom: 0;
     font-weight: 300;
 }
@@ -878,4 +880,34 @@ nav.scrolled img.logo.logo-1 {
 }
 nav.scrolled img.logo.logo-2 {
     opacity: 1;
+}
+
+
+/* tooltip */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .single-hire-process .icon-hire-process img {
+    max-width: 120px;
 }
