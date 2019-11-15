@@ -826,3 +826,7 @@ ul.footer-links li ul.dropdown-menu {
     text-transform: capitalize;
     border-radius: 30px;
 }
+
+.header-reg ul li {
+    display: inline-block;
+}

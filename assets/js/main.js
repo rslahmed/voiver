@@ -1,5 +1,10 @@
 (function($){
     "use strict";
+    // mean menu
+    jQuery('#mobile-menu-active').meanmenu({
+      meanMenuContainer: '.mobile-menu',
+      meanScreenWidth: "768"
+    });
     // nav
     $(function () {
         $(document).scroll(function () {

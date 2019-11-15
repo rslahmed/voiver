@@ -194,6 +194,10 @@
         color: #27ae60;
         font-weight: 300;
     }
+
+    nav#main-nav {
+        background: #27ae60;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
