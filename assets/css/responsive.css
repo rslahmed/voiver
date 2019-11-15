@@ -215,6 +215,21 @@
         max-width: 80px;
     }
 
+    .register-pupup {
+        position: fixed;
+        width: 90%;
+        background: white;
+        z-index: 999999;
+        top: 35%;
+        margin-left: 0;
+        left: 5%;
+    }
+
+    .register-pupup h3 {
+        font-size: 22px;
+        text-transform: capitalize;
+    }
+
     
 }
 

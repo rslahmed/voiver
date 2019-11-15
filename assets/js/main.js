@@ -127,7 +127,7 @@
     setTimeout(function(){
       $('.rp-wrapper').css({"opacity": "1", "visibility": "visible"});
       $('.register-pupup').css("transform", "scale(1)");
-   },5000);
+   },50);
 
    $(".cls-btn").click(function(){
     $('.rp-wrapper').css("display", "none");
