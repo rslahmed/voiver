@@ -1,0 +1,221 @@
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px){
+    .single-hire-process {
+        background-color: #fff;
+        padding: 35px 0;
+        min-height: 490px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* Process */
+    .single-hire-process {
+        padding: 35px 0;
+        height: 100%;
+    }
+
+    /* Service */
+    .single-service {
+        min-height: 410px;
+    }
+
+    .single-service .service-icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .single-service .service-icon span {
+        font-size: 40px;
+        line-height: 100px;
+    }
+
+    /* Testomonial */
+    .testomonial-text {
+        min-height: 270px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* Process */
+    .single-hire-process {
+        margin-bottom: 40px;
+    }
+
+    .icon-hire-process img {
+        width: 110px;
+    }
+
+    .content-process {
+        padding: 0 50px;
+    }
+
+    /* Service */
+    .single-service .service-icon {
+        width: 95px;
+        height: 95px;
+    }
+
+    .single-service .service-icon span {
+        font-size: 42px;
+        line-height: 94px;
+    }
+
+    /* footer Bottom */
+    .footer-bottom .content-text {
+        width: 100%;
+    }
+
+    .footer-bottom .image {
+        width: auto;
+        margin-left: 0;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    /* Process */
+    .single-hire-process .icon-hire-process {
+        padding: 0 95px;
+        padding-bottom: 30px;
+    }
+
+    .single-hire-process {
+        background-color: #fff;
+        padding: 25px 5px;
+        margin-bottom: 40px;
+    }
+
+    /* Service */
+    .single-service .service-icon {
+        width: 90px;
+        height: 90px;
+    }
+
+    .single-service .service-icon span {
+        font-size: 42px;
+        line-height: 89px;
+    }
+
+    .single-service {
+        min-height: auto;
+    }
+
+    /* testomonial */
+    .testomonial-text {
+        margin-bottom: 0;
+    }
+
+    .voice-testomonial-content {
+        width: 100%;
+    }
+
+    .voice-testomonial-author,
+    .testomonial-author .test-author-image {
+        margin-bottom: 15px;
+    }
+
+    /* Footer */
+    .single-footer-wid {
+        margin-bottom: 40px;
+    }
+
+    .footer-wid-wrapper {
+        padding: 50px 0;
+        padding-bottom: 20px;
+    }
+
+    .footer-bottom .content-text {
+        width: 100%;
+    }
+
+    .footer-bottom .image {
+        width: 100%;
+        margin-left: 0;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .hero-text {
+        padding: 0;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    section.hero-area {
+        padding: 80px 0;
+        padding-top: 180px;
+    }
+
+    .hero-search {
+        max-width: 480px;
+        margin: auto;
+    }
+
+    .hero-search form button {
+        display: block;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .hero-search .nice-select {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .hero-search input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    a.audio-buy {
+        margin-bottom: 0px;
+    }
+
+    .audio-price {
+        margin-bottom: 0px;
+    }
+
+    .hero-search {
+        max-width: 360px;
+    }
+
+    .header-logo img {
+        max-width: 120px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* Process */
+    .single-hire-process .icon-hire-process {
+         padding: 0 0px;
+         padding-bottom: 30px;
+     }
+     .icon-hire-process img {
+       width: 105px;
+     }
+     .testomonial-text {
+       min-height: auto;
+     }
+ }
