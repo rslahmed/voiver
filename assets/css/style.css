@@ -551,15 +551,17 @@ section.hero-area:after {
 }
 
 .single-service .content h4 {
-    font-size: 18px;
-    margin-bottom: 12px;
-    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    color: #27ae60;
 }
 
 .single-service .content p {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 24px;
     margin-bottom: 0;
+    font-weight: 300;
 }
 
 /* Service Section end */
@@ -584,12 +586,16 @@ section.hero-area:after {
     font-weight: 600;
     text-transform: capitalize;
     margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 26px;
+    color: #27ae60;
 }
 
 .single-hire-process .content-process p {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 28px;
     padding: 0 15px;
+    font-weight: 300;
 }
 
 section.hire-process-wrap {
@@ -622,7 +628,7 @@ section.hire-process-wrap {
 
 .voice-testomonial-content h6,
 .testomonial-author .test-author-content h6 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     margin-bottom: 0;
     line-height: 15px;
@@ -655,8 +661,10 @@ section.hire-process-wrap {
 
 .voice-testomonial-content p,
 .testomonial-text p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .testomonial-text {
@@ -708,7 +716,9 @@ section.hire-process-wrap {
 
 .single-footer-wid p {
     margin-bottom: 0;
-    font-size: 13px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
 }
 
 ul.footer-social-link {
@@ -793,8 +803,9 @@ ul.footer-links li ul.dropdown-menu {
 
 .footer-bottom .content-text p {
     line-height: 22px;
-    font-size: 14px;
+    font-size: 17px;
     margin-bottom: 0;
+    font-weight: 300;
 }
 
 /* Footer Bottom End */
