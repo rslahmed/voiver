@@ -70,6 +70,15 @@
         line-height: 94px;
     }
 
+    .single-register {
+        padding: 40px 15px;
+        padding-bottom: 50px;
+    }
+
+    .single-register.text-center p {
+        font-size: 16px;
+    }
+
     /* footer Bottom */
     .footer-bottom .content-text {
         width: 100%;
@@ -89,6 +98,15 @@
 
     .content-process {
         padding: 0 20px;
+    }
+
+    .single-testomonial-slide {
+        margin-bottom: 60px;
+    }
+
+    .single-service {
+        min-height: 385px;
+        margin-bottom: 60px;
     }
 }
 
@@ -228,6 +246,64 @@
     .register-pupup h3 {
         font-size: 22px;
         text-transform: capitalize;
+    }
+
+    /* letest edit */
+    .audio-name p span {
+        display: block;
+        line-height: 1;
+    }
+    
+    .audio-name p {
+        line-height: 2;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .audio-widget-mobile{
+        margin-top: 10px;
+    }
+
+    .single-register {
+        margin-bottom: 60px;
+    }
+
+    .single-hire-process {
+        margin-bottom: 60px;
+    }
+
+    .single-testomonial-slide {
+        margin-bottom: 60px;
+    }
+
+    .single-service {
+        min-height: auto;
+        margin-bottom: 60px;
+    }
+
+    nav#main-nav {
+        background: #27ae60 !important;
+    }
+
+    nav#main-nav .header-logo {
+        width: 120px;
+        height: 45px;
+    }
+
+    nav#main-nav .header-logo img {
+        max-width: 120px;
+    }
+
+    nav#main-nav img.logo.logo-1 {
+        opacity: 0;
+    }
+    nav#main-nav img.logo.logo-1 {
+        opacity: 1;
+    }
+
+    .cookie-btn {
+        padding-right: 0;
+        min-width: auto;
     }
 
     

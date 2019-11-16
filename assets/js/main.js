@@ -1,5 +1,4 @@
 (function($){
-    "use strict";
     // mean menu
     jQuery('#mobile-menu-active').meanmenu({
       meanMenuContainer: '.mobile-menu',
@@ -10,6 +9,13 @@
         $(document).scroll(function () {
           var $nav = $("#main-nav");
           $nav.toggleClass('scrolled', $(this).scrollTop() > 0);
+        });
+      });
+
+    $(function () {
+        $(document).scroll(function () {
+          var $nav = $("#back_top");
+          $nav.toggleClass('show', $(this).scrollTop() > 50);
         });
       });
 
@@ -41,8 +47,10 @@
         },{
           breakpoint: 992,
           settings: {
-            arrows: false,
+            arrows: true,
             dots: false,
+            prevArrow: '<button class="slick-prev"><i class="fas fa-angle-left"></i></button>' ,
+            nextArrow: '<button class="slick-next"><i class="fas fa-angle-right"></i></button>' ,
             infinite: true,
             autoplay: false,
             fade: false,
@@ -53,8 +61,10 @@
         },{
           breakpoint: 768,
           settings: {
-            arrows: false,
+            arrows: true,
             dots: false,
+            prevArrow: '<button class="slick-prev"><i class="fas fa-angle-left"></i></button>' ,
+            nextArrow: '<button class="slick-next"><i class="fas fa-angle-right"></i></button>' ,
             infinite: true,
             autoplay: false,
             fade: false,
@@ -95,8 +105,10 @@
         },{
           breakpoint: 1200,
           settings: {
-            arrows: false,
+            arrows: true,
             dots: false,
+            prevArrow: '<button class="slick-prev"><i class="fas fa-angle-left"></i></button>' ,
+            nextArrow: '<button class="slick-next"><i class="fas fa-angle-right"></i></button>' ,
             infinite: true,
             autoplay: false,
             fade: false,
@@ -107,8 +119,10 @@
         },{
           breakpoint: 768,
           settings: {
-            arrows: false,
+            arrows: true,
             dots: false,
+            prevArrow: '<button class="slick-prev"><i class="fas fa-angle-left"></i></button>' ,
+            nextArrow: '<button class="slick-next"><i class="fas fa-angle-right"></i></button>' ,
             infinite: true,
             autoplay: false,
             fade: false,
@@ -124,18 +138,117 @@
     });
 
 
-    setTimeout(function(){
-      $('.rp-wrapper').css({"opacity": "1", "visibility": "visible"});
-      $('.register-pupup').css("transform", "scale(1)");
-   },5000);
+     // register Slider
+     $('.register-slider').slick({
+      dots: false,
+      infinite: true,
+      arrows: false,
+      autoplay: false,
+      fade: false,
+      speed: 300,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      responsive: [{
+          breakpoint: 1500,
+          settings: {
+            arrows: false,
+            dots: false,
+            infinite: true,
+            autoplay: false,
+            fade: false,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: true,
+            dots: false,
+            prevArrow: '<button class="slick-prev"><i class="fas fa-angle-left"></i></button>' ,
+            nextArrow: '<button class="slick-next"><i class="fas fa-angle-right"></i></button>' ,
+            infinite: true,
+            autoplay: false,
+            fade: false,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
 
-   $(".cls-btn").click(function(){
-    $('.rp-wrapper').css("display", "none");
+    var windowSize = window.innerWidth;
+  if(windowSize < 800){
+    var $service = $("#service_area");
+    $service.addClass('service-slider');
+  }
+
+
+     // register Slider
+     $('.service-slider').slick({
+      dots: false,
+      infinite: true,
+      arrows: false,
+      autoplay: false,
+      fade: false,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [{
+          breakpoint: 1500,
+          settings: {
+            arrows: false,
+            dots: false,
+            infinite: true,
+            autoplay: false,
+            fade: false,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: true,
+            dots: false,
+            prevArrow: '<button class="slick-prev"><i class="fas fa-angle-left"></i></button>' ,
+            nextArrow: '<button class="slick-next"><i class="fas fa-angle-right"></i></button>' ,
+            infinite: true,
+            autoplay: false,
+            fade: false,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+
+    setTimeout(function(){
+      $('.cookie-model').css({"opacity": "1", "visibility": "visible"});
+   },50);
+
+  // popup close
+  $('.cookiecls').click(function () {
+    var $cookie = $("#cookie_popup");
+    $cookie.addClass('hide');
     event.preventDefault();
   });
 
+
+  
 
 
 
 
 })(jQuery);
+

@@ -55,14 +55,53 @@
   </nav>
 
   <!-- register popup -->
-  <div class="rp-wrapper">
-      <div class="register-pupup">
-          <a href="#" class="cls-btn"><i class="fas fa-times"></i></a>
-          <h3>Don't wait for bids or quotes anymore!</h3>
-          <p>Register now to hire a professional artist</p>
-          <a class="gs-btn" href="#">Get start now</a>
+  <div class="modal fade registerPopup-modal text-center" id="registerPopup" tabindex="-1" role="dialog" aria-labelledby="registerPopup" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+
+    <div class="register-popup-head text-left">
+      <img src="assets/img/logo-no2.png" alt="Green Logo">
+      <a href="#" class="cls-btn" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></a>
+    </div>
+    <div class="register-popup-body">
+      <form action="#" class="popup-reg-form">
+        <legend>Register to get full access</legend>
+        <div class="single-input">
+          <label for="email" class="sr-only">Email</label>
+          <input type="email" class="theinput" placeholder="Email">
         </div>
+        <div class="single-input">
+          <label for="username" class="sr-only">Username</label>
+          <input type="text" class="theinput" placeholder="Username">
+        </div>
+        <div class="single-input">
+          <label for="Password" class="sr-only">Password</label>
+          <input type="password" class="theinput" placeholder="Password">
+        </div>
+        <div class="single-input">
+          <label for="talent" class="sr-only">Talent</label>
+          <select name="#" id="talentSelect">
+            <option value="">Talent</option>
+            <option value="">Producer</option>
+          </select>
+        </div>
+        <p>I'm a multimedia content creator or producer and want to find, cast or hire voiceover talents</p>
+        <div class="single-input text-left position-relative  ">
+          <input type="checkbox" class="popupformCheckbox" id="termsAndCondition">
+          <label for="termsAndCondition" class="terms">I accept the <a href="#">Terms and Conditions</a> and the <a href="#">Privacy Policy</a></label>
+        </div>
+        <div class="single-input">
+          <button type="submit">Register</button>
+        </div>
+        <div class="signin-text text-center">
+          <p>Already have an account? <a href="#">Sign In</a></p>
+        </div>
+      </form>
+    </div>
+
+    </div>
   </div>
+</div>
 
   <!-- hero area -->
   <section class="hero-area">
@@ -170,7 +209,7 @@
         <!-- Single Process end -->
       </div>
       <div class="seemore-btn text-center mt-5">
-        <a href="#">Let's get started</a>
+        <a href="#registerPopup" data-toggle="modal">Let's get started</a>
       </div>
     </div>
   </section>
@@ -192,7 +231,7 @@
                   <h4>VVR455SE</h4>
                 </div>
                 <div class="audio-name">
-                  <p>Male - English-United-States</p>
+                  <p><span>Male</span> English-United-States</p>
                 </div>
                 <div class="audio-playbox d-flex align-items-center">
                   <div class="audio-playbtn">
@@ -225,321 +264,7 @@
           </div>
         </div>
         <!-- single audio box end -->
-        <!-- single audio box -->
-        <div class="col-lg-6">
-          <div class="single-audio-player">
-            <div class="d-flex align-items-center">
-              <div class="audio-img">
-                <img src="assets/img/audio/audio-img-1.png" alt="">
-              </div>
-              <div class="audio-content">
-                <div class="audio-title">
-                  <h4>VVR455SE</h4>
-                </div>
-                <div class="audio-name">
-                  <p>Male - English-United-States</p>
-                </div>
-                <div class="audio-playbox d-flex align-items-center">
-                  <div class="audio-playbtn">
-                    <i class="far fa-play-circle"></i>
-                  </div>
-                  <div class="audio-playbar">
-                    <span class="now-playtime"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="audio-widget text-right d-none d-sm-block">
-                <div class="audio-price"><span class="frm">from</span>186<span class="price-cent">.38</span><span
-                    class="pricetag">&euro;</span></div>
-                <div class="audio-buybtn"><a href="#" class="audio-buy">hire now</a></div>
-                <div class="audio-wid-react">
-                  <a href="" title="Download Now" class="audio-download-btn"><i class="fas fa-download"></i></a>
-                  <a href="" title="Love This"><i class="fas fa-heart"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="audio-widget-mobile justify-content-end d-flex align-items-center d-sm-none">
-              <div class="audio-price mr-3"><span class="frm">from</span>186<span class="price-cent">.38</span><span
-                  class="pricetag">&euro;</span></div>
-              <div class="audio-buybtn mr-3"><a href="#" class="audio-buy">hire now</a></div>
-              <div class="audio-wid-react">
-                <a href="" class="audio-download-btn"><i class="fas fa-download"></i></a>
-                <a href=""><i class="fas fa-heart"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- single audio box end -->
-        <!-- single audio box -->
-        <div class="col-lg-6">
-          <div class="single-audio-player">
-            <div class="d-flex align-items-center">
-              <div class="audio-img">
-                <img src="assets/img/audio/audio-img-1.png" alt="">
-              </div>
-              <div class="audio-content">
-                <div class="audio-title">
-                  <h4>VVR455SE</h4>
-                </div>
-                <div class="audio-name">
-                  <p>Male - English-United-States</p>
-                </div>
-                <div class="audio-playbox d-flex align-items-center">
-                  <div class="audio-playbtn">
-                    <i class="far fa-play-circle"></i>
-                  </div>
-                  <div class="audio-playbar">
-                    <span class="now-playtime"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="audio-widget text-right d-none d-sm-block">
-                <div class="audio-price"><span class="frm">from</span>186<span class="price-cent">.38</span><span
-                    class="pricetag">&euro;</span></div>
-                <div class="audio-buybtn"><a href="#" class="audio-buy">hire now</a></div>
-                <div class="audio-wid-react">
-                  <a href="" title="Download Now" class="audio-download-btn"><i class="fas fa-download"></i></a>
-                  <a href="" title="Love This"><i class="fas fa-heart"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="audio-widget-mobile justify-content-end d-flex align-items-center d-sm-none">
-              <div class="audio-price mr-3"><span class="frm">from</span>186<span class="price-cent">.38</span><span
-                  class="pricetag">&euro;</span></div>
-              <div class="audio-buybtn mr-3"><a href="#" class="audio-buy">hire now</a></div>
-              <div class="audio-wid-react">
-                <a href="" class="audio-download-btn"><i class="fas fa-download"></i></a>
-                <a href=""><i class="fas fa-heart"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- single audio box end -->
-        <!-- single audio box -->
-        <div class="col-lg-6">
-          <div class="single-audio-player">
-            <div class="d-flex align-items-center">
-              <div class="audio-img">
-                <img src="assets/img/audio/audio-img-1.png" alt="">
-              </div>
-              <div class="audio-content">
-                <div class="audio-title">
-                  <h4>VVR455SE</h4>
-                </div>
-                <div class="audio-name">
-                  <p>Male - English-United-States</p>
-                </div>
-                <div class="audio-playbox d-flex align-items-center">
-                  <div class="audio-playbtn">
-                    <i class="far fa-play-circle"></i>
-                  </div>
-                  <div class="audio-playbar">
-                    <span class="now-playtime"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="audio-widget text-right d-none d-sm-block">
-                <div class="audio-price"><span class="frm">from</span>186<span class="price-cent">.38</span><span
-                    class="pricetag">&euro;</span></div>
-                <div class="audio-buybtn"><a href="#" class="audio-buy">hire now</a></div>
-                <div class="audio-wid-react">
-                  <a href="" title="Download Now" class="audio-download-btn"><i class="fas fa-download"></i></a>
-                  <a href="" title="Love This"><i class="fas fa-heart"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="audio-widget-mobile justify-content-end d-flex align-items-center d-sm-none">
-              <div class="audio-price mr-3"><span class="frm">from</span>186<span class="price-cent">.38</span><span
-                  class="pricetag">&euro;</span></div>
-              <div class="audio-buybtn mr-3"><a href="#" class="audio-buy">hire now</a></div>
-              <div class="audio-wid-react">
-                <a href="" class="audio-download-btn"><i class="fas fa-download"></i></a>
-                <a href=""><i class="fas fa-heart"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- single audio box end -->
-        <!-- single audio box -->
-        <div class="col-lg-6">
-          <div class="single-audio-player">
-            <div class="d-flex align-items-center">
-              <div class="audio-img">
-                <img src="assets/img/audio/audio-img-1.png" alt="">
-              </div>
-              <div class="audio-content">
-                <div class="audio-title">
-                  <h4>VVR455SE</h4>
-                </div>
-                <div class="audio-name">
-                  <p>Male - English-United-States</p>
-                </div>
-                <div class="audio-playbox d-flex align-items-center">
-                  <div class="audio-playbtn">
-                    <i class="far fa-play-circle"></i>
-                  </div>
-                  <div class="audio-playbar">
-                    <span class="now-playtime"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="audio-widget text-right d-none d-sm-block">
-                <div class="audio-price"><span class="frm">from</span>186<span class="price-cent">.38</span><span
-                    class="pricetag">&euro;</span></div>
-                <div class="audio-buybtn"><a href="#" class="audio-buy">hire now</a></div>
-                <div class="audio-wid-react">
-                  <a href="" title="Download Now" class="audio-download-btn"><i class="fas fa-download"></i></a>
-                  <a href="" title="Love This"><i class="fas fa-heart"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="audio-widget-mobile justify-content-end d-flex align-items-center d-sm-none">
-              <div class="audio-price mr-3"><span class="frm">from</span>186<span class="price-cent">.38</span><span
-                  class="pricetag">&euro;</span></div>
-              <div class="audio-buybtn mr-3"><a href="#" class="audio-buy">hire now</a></div>
-              <div class="audio-wid-react">
-                <a href="" class="audio-download-btn"><i class="fas fa-download"></i></a>
-                <a href=""><i class="fas fa-heart"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- single audio box end -->
-        <!-- single audio box -->
-        <div class="col-lg-6">
-          <div class="single-audio-player">
-            <div class="d-flex align-items-center">
-              <div class="audio-img">
-                <img src="assets/img/audio/audio-img-1.png" alt="">
-              </div>
-              <div class="audio-content">
-                <div class="audio-title">
-                  <h4>VVR455SE</h4>
-                </div>
-                <div class="audio-name">
-                  <p>Male - English-United-States</p>
-                </div>
-                <div class="audio-playbox d-flex align-items-center">
-                  <div class="audio-playbtn">
-                    <i class="far fa-play-circle"></i>
-                  </div>
-                  <div class="audio-playbar">
-                    <span class="now-playtime"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="audio-widget text-right d-none d-sm-block">
-                <div class="audio-price"><span class="frm">from</span>186<span class="price-cent">.38</span><span
-                    class="pricetag">&euro;</span></div>
-                <div class="audio-buybtn"><a href="#" class="audio-buy">hire now</a></div>
-                <div class="audio-wid-react">
-                  <a href="" title="Download Now" class="audio-download-btn"><i class="fas fa-download"></i></a>
-                  <a href="" title="Love This"><i class="fas fa-heart"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="audio-widget-mobile justify-content-end d-flex align-items-center d-sm-none">
-              <div class="audio-price mr-3"><span class="frm">from</span>186<span class="price-cent">.38</span><span
-                  class="pricetag">&euro;</span></div>
-              <div class="audio-buybtn mr-3"><a href="#" class="audio-buy">hire now</a></div>
-              <div class="audio-wid-react">
-                <a href="" class="audio-download-btn"><i class="fas fa-download"></i></a>
-                <a href=""><i class="fas fa-heart"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- single audio box end -->
-        <!-- single audio box -->
-        <div class="col-lg-6">
-          <div class="single-audio-player">
-            <div class="d-flex align-items-center">
-              <div class="audio-img">
-                <img src="assets/img/audio/audio-img-1.png" alt="">
-              </div>
-              <div class="audio-content">
-                <div class="audio-title">
-                  <h4>VVR455SE</h4>
-                </div>
-                <div class="audio-name">
-                  <p>Male - English-United-States</p>
-                </div>
-                <div class="audio-playbox d-flex align-items-center">
-                  <div class="audio-playbtn">
-                    <i class="far fa-play-circle"></i>
-                  </div>
-                  <div class="audio-playbar">
-                    <span class="now-playtime"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="audio-widget text-right d-none d-sm-block">
-                <div class="audio-price"><span class="frm">from</span>186<span class="price-cent">.38</span><span
-                    class="pricetag">&euro;</span></div>
-                <div class="audio-buybtn"><a href="#" class="audio-buy">hire now</a></div>
-                <div class="audio-wid-react">
-                  <a href="" title="Download Now" class="audio-download-btn"><i class="fas fa-download"></i></a>
-                  <a href="" title="Love This"><i class="fas fa-heart"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="audio-widget-mobile justify-content-end d-flex align-items-center d-sm-none">
-              <div class="audio-price mr-3"><span class="frm">from</span>186<span class="price-cent">.38</span><span
-                  class="pricetag">&euro;</span></div>
-              <div class="audio-buybtn mr-3"><a href="#" class="audio-buy">hire now</a></div>
-              <div class="audio-wid-react">
-                <a href="" class="audio-download-btn"><i class="fas fa-download"></i></a>
-                <a href=""><i class="fas fa-heart"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- single audio box end -->
-        <!-- single audio box -->
-        <div class="col-lg-6">
-          <div class="single-audio-player">
-            <div class="d-flex align-items-center">
-              <div class="audio-img">
-                <img src="assets/img/audio/audio-img-1.png" alt="">
-              </div>
-              <div class="audio-content">
-                <div class="audio-title">
-                  <h4>VVR455SE</h4>
-                </div>
-                <div class="audio-name">
-                  <p>Male - English-United-States</p>
-                </div>
-                <div class="audio-playbox d-flex align-items-center">
-                  <div class="audio-playbtn">
-                    <i class="far fa-play-circle"></i>
-                  </div>
-                  <div class="audio-playbar">
-                    <span class="now-playtime"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="audio-widget text-right d-none d-sm-block">
-                <div class="audio-price"><span class="frm">from</span>186<span class="price-cent">.38</span><span
-                    class="pricetag">&euro;</span></div>
-                <div class="audio-buybtn"><a href="#" class="audio-buy">hire now</a></div>
-                <div class="audio-wid-react">
-                  <a href="" title="Download Now" class="audio-download-btn"><i class="fas fa-download"></i></a>
-                  <a href="" title="Love This"><i class="fas fa-heart"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="audio-widget-mobile justify-content-end d-flex align-items-center d-sm-none">
-              <div class="audio-price mr-3"><span class="frm">from</span>186<span class="price-cent">.38</span><span
-                  class="pricetag">&euro;</span></div>
-              <div class="audio-buybtn mr-3"><a href="#" class="audio-buy">hire now</a></div>
-              <div class="audio-wid-react">
-                <a href="" class="audio-download-btn"><i class="fas fa-download"></i></a>
-                <a href=""><i class="fas fa-heart"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- single audio box end -->
+
 
       </div>
 
@@ -574,7 +299,7 @@
   <!-- register area -->
   <div class="register-area pb-100">
     <div class="container">
-      <div class="row">
+      <div class="register-slider">
         <div class="col-md-6">
           <div class="single-register text-center">
             <h5>ARE YOU A CONTENT PRODUCER?</h5>
@@ -626,7 +351,7 @@
         <div class="section-title text-center mb-60">
             <h2>Our value proposition</h2>
         </div>
-      <div class="row text-center">
+      <div class="row text-center" id="service_area">
         <!-- Single Service -->
         <div class="col-md-6 col-lg-4">
           <div class="single-service">
@@ -911,6 +636,25 @@
   <!-- Footer Section End -->
 
 
+
+
+  <!-- back top -->
+  <div class="backto-top" id="back_top">
+    <a href="#"><i class="fas fa-angle-up"></i></a>
+  </div>
+
+
+
+  <!-- cookie model -->
+  <div class="cookie-model d-md-flex justify-content-between align-items-center" id="cookie_popup">
+    <div class="cookie-text text-center text-md-left">
+      <p class="mb-0">We use cookies to inhance your web browsing experience. by continuing to browse the site agree to our policy on cookie usage.</p>
+    </div>
+    <div class="cookie-btn mt-3 mt-md-0 text-center">
+      <a href="#" class="policybtn">Privacy Policy</a>
+      <a href="#" class="cookiecls" >OK</a>
+    </div>
+  </div>
 
 
   <!-- Code end -->
