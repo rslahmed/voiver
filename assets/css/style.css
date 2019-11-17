@@ -2,12 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Work+Sans:300,400,500,600,700,800');
 
 /* 1. Theme default css */
-:root{
+:root {
     scroll-behavior: smooth;
 }
+
 body {
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 300;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
     font-style: normal;
     overflow-x: hidden;
 }
@@ -15,35 +16,35 @@ body {
 a,
 .button,
 button {
-	-webkit-transition: all 0.3s ease-out 0s;
-	-moz-transition: all 0.3s ease-out 0s;
-	-ms-transition: all 0.3s ease-out 0s;
-	-o-transition: all 0.3s ease-out 0s;
-	transition: all 0.3s ease-out 0s;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
 }
 
 a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 a:focus,
 button:focus,
 input:focus,
 textarea:focus {
-	text-decoration: none;
-	outline: none;
+    text-decoration: none;
+    outline: none;
 }
 
 button {
-	cursor: pointer
+    cursor: pointer
 }
 
 .uppercase {
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .capitalize {
-	text-transform: capitalize;
+    text-transform: capitalize;
 }
 
 h1,
@@ -52,272 +53,272 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Poppins', sans-serif;
-	font-weight: normal;
-	color: #333333;
-	margin-top: 0px;
-	font-style: normal;
-	font-weight: 400;
-	text-transform: normal;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    color: #333333;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: normal;
 }
 
 h1 {
-	font-size: 40px;
-	font-weight: 500;
+    font-size: 40px;
+    font-weight: 500;
 }
 
 h2 {
-	font-size: 35px;
+    font-size: 35px;
 }
 
 h3 {
-	font-size: 28px;
+    font-size: 28px;
 }
 
 h4 {
-	font-size: 22px;
+    font-size: 22px;
 }
 
 h5 {
-	font-size: 18px;
+    font-size: 18px;
 }
 
 h6 {
-	font-size: 16px;
+    font-size: 16px;
 }
 
 ul {
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 li {
-	list-style: none
+    list-style: none
 }
 
 p {
-	font-size: 17px;
-	font-weight: normal;
-	line-height: 30px;
-	color: #777777;
-	margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #777777;
+    margin-bottom: 15px;
 }
 
 a {
-	color: #333;
-	font-family: sans-serif;
-	font-weight: 500;
+    color: #333;
+    font-family: sans-serif;
+    font-weight: 500;
 }
 
 /* rsl css */
 /* audio playder */
 .single-audio-player {
-	background: #F3F6FA;
-	padding: 12px;
-	margin-bottom: 20px;
+    background: #F3F6FA;
+    padding: 12px;
+    margin-bottom: 20px;
 }
 
 .audio-img {
-	width: 70px;
+    width: 70px;
 }
 
 .audio-img img {
-	width: 100%;
-	border-radius: 50%;
+    width: 100%;
+    border-radius: 50%;
 }
 
 .audio-price {
-	font-size: 20px;
-	font-weight: 600;
-	color: #27ae60;
-	line-height: 1;
-	margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #27ae60;
+    line-height: 1;
+    margin-bottom: 8px;
 }
 
 .audio-price span.frm {
-	color: #888;
-	font-size: 12px;
-	text-transform: uppercase;
-	font-family: 'Poppins', sans-serif;
-	margin-right: 6px;
+    color: #888;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 6px;
 }
 
 .audio-content {
-	padding-left: 20px;
-	margin-right: 20px;
-	flex: 1 1 auto;
+    padding-left: 20px;
+    margin-right: 20px;
+    flex: 1 1 auto;
 }
 
 .audio-title h4 {
-	font-size: 19px;
-	color: #27ae60;
-	margin-bottom: 0;
-	font-weight: 600;
-	line-height: 1;
+    font-size: 19px;
+    color: #27ae60;
+    margin-bottom: 0;
+    font-weight: 600;
+    line-height: 1;
 }
 
 .audio-name p {
-	font-size: 14px;
-	margin-bottom: 0;
+    font-size: 14px;
+    margin-bottom: 0;
 }
 
 .audio-widget {
-	margin-left: auto;
+    margin-left: auto;
 }
 
 span.price-cent {
-	font-size: 12px;
-	position: relative;
-	top: -5px;
+    font-size: 12px;
+    position: relative;
+    top: -5px;
 }
 
 span.pricetag {
-	font-weight: 400;
-	margin-left: 2px;
+    font-weight: 400;
+    margin-left: 2px;
 }
 
 a.audio-buy {
-	background: #27ae60;
-	color: #fff;
-	padding: 4px 10px;
-	text-transform: uppercase;
-	font-size: 13px;
-	border: 1px solid #27ae60;
-	border-radius: 5px;
-	margin-bottom: 8px;
-	display: inline-block;
+    background: #27ae60;
+    color: #fff;
+    padding: 4px 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border: 1px solid #27ae60;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    display: inline-block;
 }
 
 .audio-wid-react a {
-	color: #27ae60;
-	display: inline-block;
+    color: #27ae60;
+    display: inline-block;
 }
 
 a.audio-download-btn {
-	margin-right: 5px;
-	padding-right: 7px;
-	border-right: 1px solid;
-	line-height: 1;
+    margin-right: 5px;
+    padding-right: 7px;
+    border-right: 1px solid;
+    line-height: 1;
 }
 
 a.audio-buy:hover {
-	background: transparent;
-	color: #27ae60;
+    background: transparent;
+    color: #27ae60;
 }
 
 .audio-playbar {
-	width: 100%;
-	height: 3px;
-	background: #ccc;
-	position: relative;
-	cursor: pointer;
+    width: 100%;
+    height: 3px;
+    background: #ccc;
+    position: relative;
+    cursor: pointer;
 }
 
 .audio-playbtn {
-	font-size: 30px;
-	margin-right: 10px;
-	color: #27ae60;
-	cursor: pointer;
+    font-size: 30px;
+    margin-right: 10px;
+    color: #27ae60;
+    cursor: pointer;
 }
 
 span.now-playtime {
-	position: relative;
-	display: block;
-	width: 35%;
-	height: 100%;
-	background: #27ae60;
+    position: relative;
+    display: block;
+    width: 35%;
+    height: 100%;
+    background: #27ae60;
 }
 
 span.now-playtime:after {
-	content: '';
-	position: absolute;
-	top: -5px;
-	right: 0;
-	width: 13px;
-	height: 13px;
-	background: #27ae60;
-	border-radius: 50%;
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 0;
+    width: 13px;
+    height: 13px;
+    background: #27ae60;
+    border-radius: 50%;
 }
 
 .audio-area .row {
-	margin-left: -10px !important;
-	margin-right: -10px !important;
+    margin-left: -10px !important;
+    margin-right: -10px !important;
 }
 
 .audio-area .col-md-6 {
-	padding-right: 10px !important;
-	padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
 }
 
 .audio-area .page-link {
-	color: #27ae60;
+    color: #27ae60;
 }
 
 /* register area */
 
 .single-register {
-	background: #f3f6fa;
-	padding-top: 40px;
-	padding: 40px 20px;
-	padding-bottom: 50px;
-	margin-bottom: 30px;
+    background: #f3f6fa;
+    padding-top: 40px;
+    padding: 40px 20px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .single-register.text-center h5 {
-	font-size: 24px;
-	font-weight: 400;
-	color: #27ae60;
-	text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 400;
+    color: #27ae60;
+    text-transform: uppercase;
 }
 
 .single-register.text-center p {
-	font-size: 18px;
-	font-weight: 300;
-	margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 30px;
 }
 
 .reg-img img {
-	max-width: 100px;
-	display: inline-block !important;
+    max-width: 100px;
+    display: inline-block !important;
 }
 
 .reg-img {
-	margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .regbtn a {
-	background: #27ae60;
-	padding: 8px 15px;
-	color: #fff;
-	font-size: 14px;
-	text-transform: uppercase;
-	border-radius: 5px;
-	border: 2px solid #27ae60;
+    background: #27ae60;
+    padding: 8px 15px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 2px solid #27ae60;
 }
 
 .regbtn a:hover {
-	background: transparent;
-	color: #27ae60;
+    background: transparent;
+    color: #27ae60;
 }
 
 .ov-img img {
-	max-width: 100px;
+    max-width: 100px;
 }
 
 .ov-img {
-	margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .ov-content h4 {
-	font-size: 28px;
-	font-weight: 400;
-	color: #27ae60;
-	margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 400;
+    color: #27ae60;
+    margin-bottom: 20px;
 }
 
 .ov-content p {
-	font-size: 18px;
-	font-weight: 300;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 /* nav */
@@ -328,95 +329,95 @@ span.now-playtime:after {
 }
 
 .header-logo img {
-	max-width: 150px;
-	transition: .3s;
-	-webkit-transition: .3s;
-	-moz-transition: .3s;
-	-ms-transition: .3s;
-	-o-transition: .3s;
+    max-width: 150px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
 }
 
 nav#main-nav {
-	background: transparent;
-	padding: 15px 0;
-	transition: .3s;
-	position: fixed;
-	width: 100%;
-	z-index: 9999;
-	-webkit-transition: .3s;
-	-moz-transition: .3s;
-	-ms-transition: .3s;
-	-o-transition: .3s;
+    background: transparent;
+    padding: 15px 0;
+    transition: .3s;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
 }
 
 .header-reg a {
-	display: inline-block;
-	color: #27ae60;
-	background: #fff;
-	padding: 6px 22px;
-	min-width: 120px;
-	text-align: center;
-	border-radius: 30px;
-	text-transform: capitalize;
-	font-size: 14px;
-	border: 2px solid #fff;
+    display: inline-block;
+    color: #27ae60;
+    background: #fff;
+    padding: 6px 22px;
+    min-width: 120px;
+    text-align: center;
+    border-radius: 30px;
+    text-transform: capitalize;
+    font-size: 14px;
+    border: 2px solid #fff;
 }
 
 .header-reg a.header-login {
-	margin-right: 5px;
-	background: transparent;
-	color: #fff;
-	border-color: #fff;
+    margin-right: 5px;
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
 }
 
 nav.scrolled .header-reg a.header-regis {
-	border-color: #fff;
+    border-color: #fff;
 }
 
 .header-reg a.header-login:hover {
-	background: #fff;
-	color: #27ae60;
+    background: #fff;
+    color: #27ae60;
 }
 
 .header-reg a:hover {
-	background: transparent;
-	color: #fff;
-	border-color: #fff;
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
 }
 
 nav.scrolled {
-	background: #27ae60 !important;
+    background: #27ae60 !important;
 }
 
 nav.scrolled .header-logo img {
-	max-width: 120px;
+    max-width: 120px;
 }
 
 /* hero */
 section.hero-area {
-	background: url('../img/hero-bg.jpg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	position: relative;
-	padding: 180px 0;
-	padding-top: 280px;
+    background: url('../img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 180px 0;
+    padding-top: 280px;
 }
 
 section.hero-area:after {
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	background: rgba(60, 64, 70, 0.7);
-	z-index: 1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(60, 64, 70, 0.7);
+    z-index: 1;
 }
 
-.hero-content-wrap{
-	position: relative;
-	z-index: 2;
+.hero-content-wrap {
+    position: relative;
+    z-index: 2;
 }
 
 .hero-text {
@@ -569,7 +570,7 @@ section.hero-area:after {
 .single-service .service-icon span {
     font-size: 52px;
     display: inline-block;
-    color: #00AD67; 
+    color: #00AD67;
     line-height: 119px;
 }
 
@@ -876,6 +877,7 @@ ul.footer-links li ul.dropdown-menu {
     -ms-transition: .3s;
     -o-transition: .3s;
 }
+
 nav.scrolled .header-logo {
     width: 120px;
     height: 45px;
@@ -890,11 +892,30 @@ nav.scrolled .header-logo {
 img.logo.logo-2 {
     opacity: 0;
 }
+
 nav.scrolled img.logo.logo-1 {
     opacity: 0;
 }
+
 nav.scrolled img.logo.logo-2 {
     opacity: 1;
+}
+
+.audio-name p span {
+    display: inline-block;
+    padding-right: 12px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.audio-name p span:after {
+    content: '';
+    position: absolute;
+    right: -2px;
+    top: 16px;
+    width: 7px;
+    height: 1px;
+    background: #888888;
 }
 
 
@@ -903,9 +924,9 @@ nav.scrolled img.logo.logo-2 {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
-  }
-  
-  .tooltip .tooltiptext {
+}
+
+.tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
     background-color: black;
@@ -913,17 +934,17 @@ nav.scrolled img.logo.logo-2 {
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
-  
+
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
+}
 
-  .single-hire-process .icon-hire-process img {
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.single-hire-process .icon-hire-process img {
     max-width: 120px;
 }
 
@@ -1121,7 +1142,7 @@ a.policybtn {
     text-transform: capitalize;
 }
 
-.rp-wrapper{
+.rp-wrapper {
     position: fixed;
     left: 0;
     top: 0;
@@ -1132,11 +1153,11 @@ a.policybtn {
     z-index: 999999999;
     opacity: 0;
     visibility: hidden;
-    
+
 }
 
 
-.register-popup-head > img {
+.register-popup-head>img {
     width: 140px;
 }
 
@@ -1196,7 +1217,7 @@ form.popup-reg-form a {
     color: #27ae60;
 }
 
-form.popup-reg-form  .single-input .terms {
+form.popup-reg-form .single-input .terms {
     color: #000000;
     font-size: 14px;
     line-height: 18px;
@@ -1204,7 +1225,7 @@ form.popup-reg-form  .single-input .terms {
     display: inline;
 }
 
-form.popup-reg-form  button[type="submit"] {
+form.popup-reg-form button[type="submit"] {
     width: 100%;
     height: 40px;
     line-height: 40px;
@@ -1217,12 +1238,12 @@ form.popup-reg-form  button[type="submit"] {
     border-radius: 5px;
 }
 
-form.popup-reg-form  .signin-text p {
+form.popup-reg-form .signin-text p {
     font-size: 18px !important;
     text-align: center !important;
 }
 
-form.popup-reg-form  .signin-text p a {
+form.popup-reg-form .signin-text p a {
     font-weight: 500;
 }
 
@@ -1237,49 +1258,59 @@ form.popup-reg-form  .signin-text p a {
 /* Checkbox CSS  */
 
 input.popupformCheckbox[type="checkbox"] {
-	background-color: #fff; /* Default BAckground-color */
-	border: 2px solid #EAEDF4;  /* Default Border Color */
-	height: 24px;
-	width: 24px;
+    background-color: #fff;
+    /* Default BAckground-color */
+    border: 2px solid #EAEDF4;
+    /* Default Border Color */
+    height: 24px;
+    width: 24px;
     float: left;
 
-	margin-right: 10px;
-	appearance:none; /*Hides the default checkbox style*/
-	-webkit-appearance:none; /*Hides the default checkbox style*/
-	cursor:pointer;
-	position:relative;
-	transition: .15s;
-	-webkit-transition: .15s;
-	-moz-transition: .15s;
-	-ms-transition: .15s;
-	-o-transition: .15s;
+    margin-right: 10px;
+    appearance: none;
+    /*Hides the default checkbox style*/
+    -webkit-appearance: none;
+    /*Hides the default checkbox style*/
+    cursor: pointer;
+    position: relative;
+    transition: .15s;
+    -webkit-transition: .15s;
+    -moz-transition: .15s;
+    -ms-transition: .15s;
+    -o-transition: .15s;
 }
 
 
 input.popupformCheckbox[type="checkbox"]:checked {
-	background-color: #27ae60; /* Checked Background Color */
-	border-color: transparent; /* Checked Border Color */
+    background-color: #27ae60;
+    /* Checked Background Color */
+    border-color: transparent;
+    /* Checked Border Color */
 }
 
- input.popupformCheckbox[type="checkbox"]:before, 
+input.popupformCheckbox[type="checkbox"]:before,
 input.popupformCheckbox[type="checkbox"]:checked:before {
     font-size: 12px;
-	color: #fff; /* Checked Color */
-	line-height: 22px; /* Fix With Height */
-	content: ''; /* Before Check Content */
+    color: #fff;
+    /* Checked Color */
+    line-height: 22px;
+    /* Fix With Height */
+    content: '';
+    /* Before Check Content */
 
-	font-family: 'Font Awesome 5 Free';
-	font-weight: 900;
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	text-align:center;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
 
 input.popupformCheckbox[type="checkbox"]:checked:before {
-	content: "\f00c"; /* Checked Content */
+    content: "\f00c";
+    /* Checked Content */
 }
 
 /* Checkbox CSS End */

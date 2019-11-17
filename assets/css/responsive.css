@@ -306,6 +306,10 @@
         min-width: auto;
     }
 
+    .audio-name p span:after {
+        display: none;
+    }
+
     
 }
 
