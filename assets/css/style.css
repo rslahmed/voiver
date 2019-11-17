@@ -886,7 +886,7 @@ nav.scrolled .header-logo {
 .header-logo img.logo {
     position: absolute;
     left: 0;
-    max-width: 180px;
+    max-width: 210px;
 }
 
 img.logo.logo-2 {
@@ -1021,13 +1021,13 @@ button.slick-arrow:hover {
 
 /* cookie popup */
 .cookie-text p {
-    font-size: 15px;
+    font-size: 18px;
     color: #333;
 }
 
 .cookie-model {
     background: #ffffff;
-    padding: 11px 15px;
+    padding: 20px 15px;
     width: 100%;
     position: fixed;
     left: 0;
