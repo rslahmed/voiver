@@ -897,16 +897,6 @@ nav.scrolled img.logo.logo-2 {
     opacity: 1;
 }
 
-.audio-name p span {
-    display: block;
-}
-
-.audio-name p {
-    line-height: 1.2;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
 
 /* tooltip */
 .tooltip {
