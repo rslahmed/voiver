@@ -15,7 +15,7 @@
     $(function () {
         $(document).scroll(function () {
           var $nav = $("#back_top");
-          $nav.toggleClass('show', $(this).scrollTop() > 50);
+          $nav.toggleClass('show', $(this).scrollTop() > 100);
         });
       });
 
