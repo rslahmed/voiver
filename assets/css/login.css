@@ -2102,3 +2102,8 @@ html, body {
 .single-input.text-left.position-relative label {
     font-weight: 400 !important;
 }
+
+.nice-select {
+    position: relative;
+    z-index: 999999;
+}
