@@ -2074,6 +2074,7 @@ html, body {
     text-decoration: none;
     background-color: #4C69BA;
     color: #fff;
+    border-radius: 5px;
 }
 .form-body.without-side .form-content .form-items .other-links a.ggl:hover {
     background: #DD4B39;
