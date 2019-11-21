@@ -25,10 +25,13 @@
                             <input class="form-control" type="email" name="username" placeholder="Email Address" required>
                             <input class="form-control" type="text" name="username" placeholder="User Name" required>
                             <input class="form-control" type="password" name="password" placeholder="Password" required>
-                            <select name="#" id="talentSelect">
-                                <option value="">Talent</option>
-                                <option value="">Producer</option>
-                            </select>
+                            <div class="form-group">
+                                    <select name="#" id="talentSelect" class="form-control">
+                                            <option value="Voice over telent">Voice over telent</option>
+                                            <option value="Producer/client" selected>Producer/client</option>
+                                        </select>
+                                        <p id="option-selected" class="singup-as">Sing up as a Producer/client</p>
+                            </div>
                             <div class="single-input text-left position-relative  ">
                                     <input type="checkbox" class="popupformCheckbox" id="termsAndCondition">
                                     <label for="termsAndCondition" class="terms">I accept the <a href="#">Terms and Conditions</a> and the <a href="#">Privacy Policy</a></label>
@@ -36,6 +39,7 @@
                             <div class="form-button reg-sub">
                                 <button id="submit" type="submit" class="ibtn w-100">Sing up</button> 
                             </div>
+                            
                         </form>
                         <div class="other-links">
                             <div class="text">Or signup with</div>
@@ -58,7 +62,14 @@
     <script src="assets/js/jquery.nice-select.min.js"></script>
 
     <script>
-        $('select').niceSelect();
+        
+        var select = document.getElementById("talentSelect"),
+        showOption = document.querySelector('#option-selected');
+        
+        select.addEventListener('change', function(){
+            showOption.textContent = "Sing up as a " + this.value;
+        });
+        // $('select').niceSelect();
     </script>
 </body>
 
