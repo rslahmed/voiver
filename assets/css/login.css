@@ -17,6 +17,8 @@ html, body {
 .form-body {
     background-color: #0093FF;
     background-image: url('../img/register-bg.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .form-body > .row {
