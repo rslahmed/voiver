@@ -2081,3 +2081,16 @@ html, body {
 .form-body.without-side .form-content .form-items .other-links a.ggl:hover {
     background: #DD4B39;
 }
+
+/* register select */
+
+.nice-select {
+    width: 100%;
+    background: #f7f7f7;
+    border: none;
+    margin-bottom: 25px;
+}
+
+.nice-select .list{
+    width: 100%;
+}
