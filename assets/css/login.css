@@ -1317,10 +1317,12 @@ html, body {
 
 .form-body.without-side .form-content .form-items .other-links a {
     display: inline-block;
-    padding: 5px;
+    padding: 6px 12px;
     border-radius: 2px;
     color: #000;
     background-color: #F7F7F7;
+    transition: .3s;
+    font-size: 14px;
 }
 
 .form-body.without-side .form-content .form-items .other-links a i {
@@ -1435,6 +1437,7 @@ html, body {
 .form-body.without-side .form-content .form-button a {
     font-weight: 300;
     color: #000;
+    font-size: 14px;
 }
 
 .form-body.without-side .form-content .form-sent {
@@ -2065,4 +2068,13 @@ html, body {
 .form-items .logo {
     text-align: center;
     margin-bottom: 25px;
+}
+
+.form-body.without-side .form-content .form-items .other-links a:hover {
+    text-decoration: none;
+    background-color: #4C69BA;
+    color: #fff;
+}
+.form-body.without-side .form-content .form-items .other-links a.ggl:hover {
+    background: #DD4B39;
 }
