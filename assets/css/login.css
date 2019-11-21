@@ -2123,3 +2123,8 @@ p#option-selected {
     font-size: 14px;
     font-weight: 400;
 }
+
+.form-content.signup .form-items {
+    max-width: 420px;
+    text-align: left;
+}

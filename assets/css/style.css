@@ -1377,3 +1377,7 @@ input.popupformCheckbox[type="checkbox"]:checked:before {
     background: #ef5541;
 }
 
+.form-content.signup .form-items {
+    max-width: 420px;
+    text-align: left;
+}
