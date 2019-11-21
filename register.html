@@ -1,113 +1,56 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Title</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Favicons -->
-    <link rel="shortcut icon" href="assets/img/favicon.png">
-
-    <!-- All CSS Here-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/default.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIOVER</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/register.css">
 </head>
-
 <body>
-    <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-
-
-
-    <!--********************************
-    ***** Code Start From Here *****
-    ******************************** -->
-
-    <div class="register-wrapper">
-        <!-- register popup -->
-        <div class="registerPopup-modal text-center pt-40 pb-70">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-
-                    <div class="register-popup-head text-center">
-                        <img src="assets/img/logo-no2.png" alt="Green Logo">
+        <div class="form-body">
+                <div class="website-logo">
+                    <a href="index.html">
+                        <div class="logo">
+                            <img class="logo-size" src="images/logo-light.svg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="row">
+                    <div class="img-holder">
+                        <div class="bg"></div>
+                        <div class="info-holder">
+        
+                        </div>
                     </div>
-                    <div class="register-thirdparty">
-                        <a href="#" class="with-fb">
-                            <span class="treg-icon"><i class="fab fa-facebook-f"></i></span>
-                            Register with facebook
-                        </a>
-                        <a href="#" class="with-ggl">
-                            <span class="treg-icon"><i class="fab fa-google"></i></span>
-                            Register with facebook
-                        </a>
-
-                        <h3 class="mt-4">Or Sing Up</h3>
+                    <div class="form-holder">
+                        <div class="form-content">
+                            <div class="form-items">
+                                <h3>Get more things done with Loggin platform.</h3>
+                                <p>Access to the most powerfull tool in the entire design and web industry.</p>
+                                <div class="page-links">
+                                    <a href="login1.html">Login</a><a href="register1.html" class="active">Register</a>
+                                </div>
+                                <form>
+                                    <input class="form-control" type="text" name="name" placeholder="Full Name" required>
+                                    <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
+                                    <input class="form-control" type="password" name="password" placeholder="Password" required>
+                                    <div class="form-button">
+                                        <button id="submit" type="submit" class="ibtn">Register</button>
+                                    </div>
+                                </form>
+                                <div class="other-links">
+                                    <span>Or register with</span><a href="#">Facebook</a><a href="#">Google</a><a href="#">Linkedin</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="register-popup-body">
-                        <form action="#" class="popup-reg-form">
-                            <div class="single-input">
-                                <label for="email" class="sr-only">Email</label>
-                                <input type="email" class="theinput" placeholder="Email">
-                            </div>
-                            <div class="single-input">
-                                <label for="username" class="sr-only">Username</label>
-                                <input type="text" class="theinput" placeholder="Username">
-                            </div>
-                            <div class="single-input">
-                                <label for="Password" class="sr-only">Password</label>
-                                <input type="password" class="theinput" placeholder="Password">
-                            </div>
-                            <div class="single-input">
-                                <label for="talent" class="sr-only">Talent</label>
-                                <select name="#" id="talentSelect">
-                                    <option value="">Talent</option>
-                                    <option value="">Producer</option>
-                                </select>
-                            </div>
-                            <p>I'm a multimedia content creator or producer and want to find, cast or hire voiceover
-                                talents
-                            </p>
-                            <div class="single-input text-left position-relative  ">
-                                <input type="checkbox" class="popupformCheckbox" id="termsAndCondition">
-                                <label for="termsAndCondition" class="terms">I accept the <a href="#">Terms and
-                                        Conditions</a> and the <a href="#">Privacy Policy</a></label>
-                            </div>
-                            <div class="single-input">
-                                <button type="submit">Register</button>
-                            </div>
-                            <div class="signin-text text-center">
-                                <p>Already have an account? <a href="#">Sign In</a></p>
-                            </div>
-                        </form>
-                    </div>
-
                 </div>
             </div>
-        </div>
-    </div>
-
-
-    <!-- Code end -->
-
-
-    <!-- All js file -->
-    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
-    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-
-    <script>
-        $('select').niceSelect();
-    </script>
-
+<script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
 </body>
-
 </html>
