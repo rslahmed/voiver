@@ -2094,3 +2094,11 @@ html, body {
 .nice-select .list{
     width: 100%;
 }
+
+.form-button.reg-sub{
+    margin-top: 10px !important;
+}
+
+.single-input.text-left.position-relative label {
+    font-weight: 400 !important;
+}
