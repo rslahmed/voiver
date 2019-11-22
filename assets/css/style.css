@@ -1193,7 +1193,9 @@ form.popup-reg-form .single-input {
 form.popup-reg-form .single-input .nice-select {
     width: 100%;
     float: none;
-    color: #565656;
+    color: #757575;
+    background: #f7f7f7;
+    border: none;
 }
 
 form.popup-reg-form .single-input .nice-select:after {
@@ -1223,6 +1225,7 @@ form.popup-reg-form .single-input .terms {
     line-height: 18px;
     margin-bottom: 0;
     display: inline;
+    cursor: pointer;
 }
 
 form.popup-reg-form button[type="submit"] {
@@ -1328,7 +1331,7 @@ input.popupformCheckbox[type="checkbox"]:checked:before {
 /* Modal CSS End */
 
 /* register page */
-.register-wrapper{
+.register-wrapper {
     min-height: 100vh;
     background-image: url('../img/register-bg.jpg');
     background-size: cover;
@@ -1371,13 +1374,204 @@ input.popupformCheckbox[type="checkbox"]:checked:before {
     padding: 20px 0;
 }
 
-.register-thirdparty a:hover {background: #5B7BD5;background-image: linear-gradient(#5B7BD5, #4864B1);}
+.register-thirdparty a:hover {
+    background: #5B7BD5;
+    background-image: linear-gradient(#5B7BD5, #4864B1);
+}
 
 .register-thirdparty a.with-ggl:hover {
     background: #ef5541;
 }
 
-.form-content.signup .form-items {
-    max-width: 420px;
+/* banner area */
+.banner-area {
+    padding: 180px 0;
+    padding-top: 260px;
+    background-image: url(../img/register-bg.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* contact form */
+
+/* contact form */
+
+.single-input textarea,
+.single-input input.theinput {
+    width: 100%;
+    padding: 9px 20px;
     text-align: left;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border: 0;
+    background-color: #F7F7F7;
+    color: #000000;
+    border: none !important;
+}
+
+.single-input textarea:hover,
+.single-input input.theinput:hover {
+    background-color: #eaeaea;
+}
+
+.single-input textarea:focus,
+.single-input input.theinput:focus {
+    background-color: #eaeaea;
+}
+
+.contact-form button[type="submit"] {
+    background: #27ae60;
+    border: 2px solid #27ae60;
+    color: #fff;
+    padding: 5px 15px;
+    min-width: 180px;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+.contact-form button[type="submit"]:hover {
+    background: transparent;
+    color: #27ae60;
+}
+
+.form-control:hover {
+    background: #eaeaea;
+}
+
+form.popup-reg-form .single-input {
+    margin-bottom: 20px;
+}
+
+form.popup-reg-form .single-input .nice-select:hover {
+    background: #eaeaea;
+}
+
+.contat-from-wrapper .single-input {
+    margin-bottom: 20px;
+}
+
+.contat-from-wrapper {
+    padding: 40px 180px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: #fff;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
+    margin-top: -230px;
+    border-radius: 6px;
+    position: relative;
+    z-index: 9;
+}
+
+.contact-bg {
+    background-image: url(../img/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-bg:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.829);
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+}
+
+.content-textinfo {
+    position: relative;
+    z-index: 3;
+    padding: 0 120px;
+}
+
+.single-textinfo h5 {
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.single-textinfo p {
+    font-size: 17px;
+    color: #656565;
+    max-width: 300px;
+}
+
+
+.single-textinfo span.textinfo-icon {
+    position: absolute;
+    color: #515151;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+}
+
+.single-textinfo {
+    position: relative;
+}
+
+.single-textinfo {
+    margin-bottom: 40px;
+}
+
+/* banner */
+.banner-text h2 {
+    color: #fff;
+    font-size: 72px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.banner-text p {
+    font-size: 18px;
+    color: #e3e3e3;
+}
+
+.banner-area.contact {
+    padding-top: 220px;
+    padding-bottom: 280px;
+    background-image: url(../img/register-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contat-from-wrapper h3 {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.contat-from-wrapper p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.single-textinfo h5:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 110px;
+    background: #27ae6066;
+    height: 2px;
+}
+
+.contat-from-wrapper svg {
+    position: absolute;
+    right: 40px;
+    top: 40px;
 }
